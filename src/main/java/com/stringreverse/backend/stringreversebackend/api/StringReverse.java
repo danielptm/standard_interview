@@ -19,9 +19,8 @@ public class StringReverse {
   }
 
   @PostMapping
-  public ResponseEntity create(@RequestBody Payload p) {
-    String r = p.toString();
-    return ResponseEntity.ok(r);
+  public ResponseEntity create() {
+    return null;
   }
 
 
