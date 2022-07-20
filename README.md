@@ -11,16 +11,18 @@ This is a java code test for interviewing with The Standard.
 2. Write a function that reverses the string. Do this from scratch without a java library provided function.
 3. Write a unit test for this reverse string function.
 4. Return the reversed string from the API method.
-5. You have fullfilled the functional requirements once we can send a post request with a payload containing the string and receive back the string's characters reversed. For example:
+5. You have fullfilled the functional requirements once we can send a post request with a payload containing the string and receive back the string's characters reversed.
+6. Once you are finished, compress the project containing your code to a zip file and email back to the recruiter.
 
-The JSON for the incoming payload should structured like this:
+For example:
+The JSON for the incoming payload should be structured like this:
 ```
 {
     payloadString: "abc"
 }
 ```
 
-The JSON for the outgoing payload would like like this:
+The JSON for the outgoing payload would look like this:
 ```
 {
     payloadString: "cba"
